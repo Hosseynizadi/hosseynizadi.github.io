@@ -1,30 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Define the character encoding -->
     <meta charset="UTF-8">
-    
-    <!-- Set the viewport for responsive design on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Title of the page shown in browser tab -->
     <title>Hossein Izadi - Data Analyst</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .project {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        a {
+            color: #1a73e8;
+        }
+    </style>
 </head>
 <body>
-    <!-- Main heading of the page -->
+
     <h1>Hi, I'm Hossein Izadi</h1>
-    
-    <!-- Short introduction -->
-    <p>Data lovers with experience in various projects.</p>
-    
-    <!-- Section for listing projects -->
-    <h2>Projects:</h2>
-    
-    <ul>
-        <!-- Each list item links to a GitHub project -->
-        <li><a href="https://github.com/Hosseynizadi/Weltweite_Daten_bezogene_Jobstellen_Analyse_und_Gehaltsvorhersage_mit_Machine_Learning">Project 1</a></li>
-        <li><a href="https://github.com/Hosseynizadi/Flughafen_Projekt">Project 2</a></li>
-        <li><a href="https://github.com/Hosseynizadi/House-Prices--Advanced-Regression-Techniques">Project 3</a></li>
-    </ul>
+    <p>Data analyst with a passion for data-driven insights, machine learning, and visualization.</p>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Project 1: Global Data-related Job Analysis and Salary Prediction with ML</h3>
+        <p>Scraped job listings worldwide, cleaned data using pandas, and built machine learning models to predict salary ranges.</p>
+        <img src="Streamlit_Web_App.png" alt="Global Job Analysis Web-App">
+        <img src="images/global_jobs.png" alt="Global Job Analysis Dashboard">
+        <p><a href="https://github.com/Hosseynizadi/Weltweite_Daten_bezogene_Jobstellen_Analyse_und_Gehaltsvorhersage_mit_Machine_Learning" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Project 2: Airport Traffic and Delay Dashboard</h3>
+        <p>Analyzed airport traffic patterns and visualized delays using interactive dashboards. Used Streamlit for deployment.</p>
+        <img src="images/airport_dashboard.png" alt="Airport Project Screenshot">
+        <p><a href="https://github.com/Hosseynizadi/Flughafen_Projekt" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <div class="project">
+        <h3>Project 3: House Price Prediction - Advanced Regression</h3>
+        <p>Used advanced regression models to predict house prices. Feature engineering, model tuning and evaluation included.</p>
+        <img src="images/house_prices.png" alt="House Prices Model Results">
+        <p><a href="https://github.com/Hosseynizadi/House-Prices--Advanced-Regression-Techniques" target="_blank">View on GitHub</a></p>
+    </div>
+
 </body>
 </html>
